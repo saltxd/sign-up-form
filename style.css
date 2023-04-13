@@ -8,17 +8,14 @@
     height: 100vh;
 }
 
+/* right side */
+
 .hero-right{
     display: flex;
     flex-direction: column;
     flex: 1;
-}
-
-.side-hero{
-    background-image: url(images/ferns.jpg);
-    width: 40vw;
-    background-position: center;
-    background-size: cover;
+    justify-content: center;
+    background-color: lightgray;
 }
 
 .form{
@@ -37,19 +34,32 @@
     text-transform: uppercase;
 }
 
-  .logo{
+/* left side */
+
+.side-hero{
     display: flex;
-    flex-flow: row wrap;
+    background-image: url(images/ferns.jpg);
+    width: 40vw;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
-  .logo img{
+.logo img{
     width: 60px;
     height: auto;
     margin-right: 10px;
   }
 
-  .logo h1{
-    font-size: 28px;
+.logo h1{
+    font-size: 40px;
     font-weight: bold;
     margin: 0;
     color: white;
