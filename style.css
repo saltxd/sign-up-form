@@ -4,25 +4,53 @@
 
 .main{
     display:flex;
+    width: 100vw;
+    height: 100vh;
 }
 
-.picture{
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.side-hero{
     background-image: url(images/ferns.jpg);
+    width: 40vw;
+    background-position: center;
+    background-size: cover;
 }
 
 .form{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
-.row {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.input{
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+  .logo{
+    display: flex;
+    flex-flow: row wrap;
   }
-  .column {
-    width: 48%;
+
+  .logo img{
+    width: 60px;
+    height: auto;
+    margin-right: 10px;
   }
-  .input {
-    margin-bottom: 20px;
+
+  .logo h1{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
   }
