@@ -88,12 +88,12 @@ button{
 
   input:focus{
     outline: none;
-    border: 2px solid var(--btnColor);
+    border: 3px solid var(--btnColor);
   }
 
   input.error {
     font-size: 0.8em;
-    border: 1px solid red;
+    border: 2px solid red;
   }
   
   .credit{
