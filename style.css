@@ -96,6 +96,16 @@ button{
     border: 1px solid red;
   }
   
+  .credit{
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    font-size: 10px;
+  }
+
+  .credit-font{
+    color: white;
+  }
 
 /* left side */
 
