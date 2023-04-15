@@ -31,6 +31,7 @@ body{
     justify-content: center;
     background-color: var(--background);
     align-items: start;
+    gap: 10px;
 }
 
 .header{
@@ -48,6 +49,7 @@ form{
     flex-flow: row wrap;
     gap: 10px;
     margin: 10px;
+    font-size: 16px;
    
 }
 
@@ -55,9 +57,45 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-transform: uppercase;
     flex-basis: calc(50% - 5px);
 }
+
+button{
+    background-color: var(--btnColor);
+    font-size: 1.3rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  button:hover{
+    background-color: var(--background);
+    color: black;
+  }
+
+  a{
+    color: var(--btnColor);
+    text-decoration: none;
+  }
+
+  a:hover{
+    color:white;
+  }
+  
+  .create_account{
+    margin: 10px;
+  }
+
+  input:focus{
+    outline: none;
+    border: 2px solid var(--btnColor);
+  }
+
+  input.error {
+    font-size: 0.8em;
+    border: 1px solid red;
+  }
+  
 
 /* left side */
 
@@ -78,8 +116,8 @@ form{
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: black;
-    opacity: .5;
+    background-color: rgba(0,0,0,.5);
+    color: #fff;
   }
 
 .logo img{
@@ -96,11 +134,3 @@ form{
     font-family: norse;
   }
 
-  button{
-    background-color: var(--btnColor);
-    font-size: 1.3rem;
-    margin: 10px;
-    border-radius: 10px;
-    padding: 10px 20px;
-    color: white;
-  }
